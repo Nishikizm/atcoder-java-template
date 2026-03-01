@@ -12,7 +12,7 @@ public class Main {
         System.out.print(ans);
     }
 
-    private static int[] getIntArray(FastScanner sc, int num) {
+    private static int[] getIntArray(FastScanner sc, int num) throws IOException {
         int[] resultArray = new int[num];
         for(int i = 0; i < num; i++) {
             resultArray[i] = sc.nextInt();
@@ -20,7 +20,7 @@ public class Main {
         return resultArray;
     }
 
-    private static long[] getLongArray(FastScanner sc, int num) {
+    private static long[] getLongArray(FastScanner sc, int num) throws IOException {
         long[] resultArray = new long[num];
         for(int i = 0; i < num; i++) {
             resultArray[i] = sc.nextLong();
@@ -28,7 +28,7 @@ public class Main {
         return resultArray;
     }
 
-    private static double[] getDoubleArray(FastScanner sc, int num) {
+    private static double[] getDoubleArray(FastScanner sc, int num) throws IOException {
         double[] resultArray = new double[num];
         for(int i = 0; i < num; i++) {
             resultArray[i] = sc.nextDouble();
