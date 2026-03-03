@@ -32,7 +32,8 @@ ScannerとBufferedReaderでそれぞれ実行速度を測定した。<br>
 - **Main.java**: AtCoderのコンテストで使用できるテンプレート
 - **benchmark-data/sample/***: テストデータのサンプル<br>
 <br>
-    *src/main/java/io/github/nishikizm/atcoderjavatemplate/*
+
+*src/main/java/io/github/nishikizm/atcoderjavatemplate/*
 - **benchmark/IOBenchmark.java**: ベンチマークテスト
 - **io/ScannerIO.java**: Scannerによるデータ読み取りの実装（テスト用）
 - **io/BuffredReaderIO.java**: BufferedReaderによるデータ読み取りの実装（テスト用）
