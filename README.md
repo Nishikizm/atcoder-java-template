@@ -44,11 +44,6 @@ ScannerとBufferedReaderでそれぞれ実行速度を測定した。<br>
 - Java 17
 - Maven
 
-## 補足
-
-- BigDecimalを使った金額の取り扱いの練習のため、テーブルに *balance* を含めた。
-- Docker Composeを用いたコンテナ環境での利用を想定してDB接続情報は *.env* に記述し、dotenv-javaを利用して読み込んでいる。
-
 ## 関連
 
 AtCoderアカウント（ https://atcoder.jp/users/IwsS ）
